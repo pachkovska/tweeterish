@@ -64,16 +64,14 @@ body {
 .statName {
     text-align: center;
     padding-top: 10px;
-    margin-top: 3px;
-    margin-bottom: 0px;
+    margin: 3px 0 0 0;
 }
 
 .statNumber {
     text-align: center;
     font-size: 14px;
     font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin: 0 0 5px 0;
 }
 
 .TweetStats--tweetCount--active {
@@ -204,7 +202,8 @@ body {
 
 .singleTweet-stats > p {
     margin: 5px 30px 0 30px;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 
 .retweet {
@@ -215,4 +214,3 @@ body {
 .Tweet-break {
     border-bottom: 1px solid var(--content-background);
 }
-
